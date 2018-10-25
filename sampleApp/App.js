@@ -7,7 +7,11 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, AppRegistry} from 'react-native';
+
+// import App from 'react-native-ble-manager/example/App' //<-- simply point to the example js!
+
+// AppRegistry.registerComponent('MyAwesomeApp', () => App);
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -22,7 +26,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js ^_^</Text>
+        <Text style={styles.instructions}>To get started, edit App.js ^o^</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );
